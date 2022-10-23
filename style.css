@@ -95,9 +95,9 @@ p {
   text-transform: capitalize;
   color: var(--third-color);
 }
-.button-contact-me:hover {
+/* .button-contact-me:hover {
   color: var(--first-color);
-}
+} */
 
 /* SECOND PART */
 .second-wrapper {
