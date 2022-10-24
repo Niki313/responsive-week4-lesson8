@@ -21,45 +21,12 @@ body {
 .wrapper {
   background-color: var(--third-color);
   height: 900px;
-  margin: 0 0 127px 0;
+  margin-bottom: 50px;
 }
-.about-wrapper{
-  background-color: var(--fourth-color);
-  height: auto;
-  margin: 0 0 110px 0;
-}
-
-.logo {
-  position: absolute;
-  top: 40px;
-  left: 165px;
-}
-
-/* top menu navigation_START */
-
-.link-menu-block {
-  position: absolute;
-  top: 51px;
-  left: 960px;
-}
-.link-menu {
-  text-decoration: none;
-  font-size: 16px;
-  color: var(--first-color);
-  line-height: 24px;
-  font-family: var(--fontfamily-first);
-  margin: 0 30px;
-}
-
-.link-menu:hover {
-  color: var(--second-color);
-}
-/* top menu navigation_END */
-
 
 /* First part of "homepage"_START */
 .greeting-text {
-  margin-top: 211px;
+  margin-top: 97px;
 }
 
 .name {
@@ -67,7 +34,6 @@ body {
   font-family: var(--fontfamily-second);
   font-weight: 700;
   font-size: 96px;
-  line-height: 128px;
 }
 p {
   font-family: var(--fontfamily-first);
@@ -78,22 +44,20 @@ p {
   font-family: var(--fontfamily-first);
   font-weight: 700;
   font-size: 36px;
-  line-height: 54px;
 }
 
 #text-about {
+  font-family: var(--fontfamily-second);
   color: var(--first-color);
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
   margin: 0 auto;
-  line-height: 36px;
 }
         /* button "contact me"_START */
 .button-contact-me {
   display: inline;
   background-color: var(--second-color);
-  padding: 18px 46px;
+  padding: 18px 18px;
   border-radius: 4px;
 }
 .button-contact-me a {
@@ -103,86 +67,48 @@ p {
   line-height: 27px;
   text-decoration: none;
   text-align: center;
-  text-transform: capitalize;
   color: var(--third-color);
 }
 .button-contact-me:hover {
   color: var(--first-color);
 }
-        /* button "contact me"_END */
-/* First part of "homepage"_END */
 
 
-/* Second part of "homepage" and part of "About"_START */
 .second-wrapper {
   padding: 0 0;
   margin: 0 67px;
 }
 .text-second-part {
   text-align: center;
-  margin-bottom: 82px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
       /* Page of "About" and page of "Contact"*/
 .headerDictionary,
 .headerWeather,
-.headerYogurt, .about-greeting, .get-touch {
+.headerYogurt {
   font-family: var(--fontfamily-second);
   font-size: 64px;
   font-weight: 700;
   line-height: 85px;
   color: var(--fifth-color);
-}
-.headerDictionary,
-.headerWeather,
-.headerYogurt {
   margin-top: 95px;
   margin-bottom: 55px;
 }
-      /* Page of "About" */
-.about-greeting{
-  margin-top: 10px;
-  margin-bottom: 29px;
-}
-      /* Page of "Contact" */
-.get-touch{
-  margin-top: 10px;
-  margin-bottom: 235px;
-}
+  
 
 .content-yogurt,
 .content-dictionary,
-.content-weather {
+.content-weather{
   margin-bottom: 68px;
-}
-      /* Page of "About" */
-.content-yogurt,
-.content-dictionary,
-.content-weather, .about-developer, .about-content-developer{
-  margin: 10px 0;
   font-family: var(--fontfamily-first);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: var(--first-color);
 }
-      /* Page of "About" */
-.about-content-developer{
-  margin-bottom: 66px;
-}
-      /* Page of "About" */
-.about-developer{
-  font-weight: bold;
-  margin-bottom: 28px;
-}
-      /* Page of "About" */
-.about-photo-developer{
-  height: 460px;
-  padding: 0 0;
-  margin-bottom: 100px;
-}
-
-/* buttons "Weather", "Yoga", "Yogurt", 
-"View detail project" on Homepage and page "About" */
+   
 
 .contact-link {
   background-color: var(--fourth-color);
